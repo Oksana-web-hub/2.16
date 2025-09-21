@@ -15,6 +15,12 @@ const cola = 1;
 
 console.log((hamburger===3  && cola && fries))
 
+console.log(1 && 0);
+console.log(1 && 5);
+console.log(null && 5);
+console.log(1 && 'dlkfjgvnse;ngl');
+
+
 if (hamburger===3  && cola===1 && fries) {
     console.log('Ми ситі')
 } else {
